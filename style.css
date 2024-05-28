@@ -1,0 +1,72 @@
+header {
+  background-color: brown;
+}
+
+main {
+  background-color: blueviolet;
+}
+
+article {
+  background-color: blue;
+}
+
+.headerarticle {
+  background-color: aqua;
+}
+
+.articletext {
+  background-color: goldenrod;
+}
+
+aside {
+  background-color: green;
+}
+
+a {
+  color: rgb(48, 48, 212);
+}
+
+.navbar a {
+  color: white;
+  margin: 20px;
+}
+
+.biglinkbout {
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.headermain {
+  height: 50px;
+}
+
+.logo {
+  height: 30px;
+}
+
+main {
+  margin-left: 20px;
+
+  border-left: 1px solid rgb(206, 206, 206);
+}
+
+article {
+  width: 40%;
+  margin-left: 20px;
+  border: 1px solid rgb(206, 206, 206);
+}
+
+aside img {
+  max-width: 100%;
+}
+
+.article {
+  display: flex;
+  margin: 20px;
+}
+
+aside {
+  border: 1px solid rgb(206, 206, 206);
+  padding: 20px;
+}
