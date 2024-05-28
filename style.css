@@ -21,6 +21,38 @@ aside {
 }
 
 */
+@media (max-width: 300px) {
+  .article {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px;
+  }
+
+  aside {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+@media (min-width: 500px) {
+  .article {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  article {
+    width: 768px;
+  }
+
+  .article {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 20px;
+  }
+}
 
 .headermain {
   background-color: rgb(31, 10, 70);
@@ -34,7 +66,6 @@ a {
 
 .navbar a {
   color: white;
-  margin: 20px;
 }
 
 .biglinkbout {
@@ -95,7 +126,34 @@ a {
   margin-bottom: 20px;
 }
 
+.Subscribe {
+  float: right;
+  background-color: red;
+  border-radius: 10%;
+}
+
+.login {
+  float: right;
+}
+
 /*--------------------------------------*/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .left a,
+nav .right a {
+  margin-right: 30px;
+}
 
 .headermain {
   height: 50px;
@@ -103,16 +161,16 @@ a {
 
 .logo {
   height: 30px;
+  margin-left: 30px;
 }
 
 main {
   margin-left: 20px;
   border-left: 1px solid rgb(206, 206, 206);
-  height: 850px;
 }
 
 article {
-  width: 40%;
+  width: 768px;
   margin-left: 20px;
   border: 1px solid rgb(206, 206, 206);
 }
@@ -150,11 +208,6 @@ h1 {
 h2 {
   font-weight: normal;
   font-size: larger;
-}
-
-nav {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .grey {
