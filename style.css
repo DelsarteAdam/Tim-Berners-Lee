@@ -1,5 +1,4 @@
 /*
-
 main {
   background-color: blueviolet;
 }
@@ -19,8 +18,8 @@ article {
 aside {
   background-color: green;
 }
-
 */
+
 @media (max-width: 300px) {
   .article {
     display: grid;
@@ -182,12 +181,6 @@ article {
 
 aside img {
   max-width: 100%;
-}
-
-.article {
-  display: grid;
-  grid-template-columns: 60% 40%;
-  margin: 20px;
 }
 
 aside {
