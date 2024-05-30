@@ -1,4 +1,5 @@
 /*
+
 main {
   background-color: blueviolet;
 }
@@ -73,6 +74,7 @@ a {
   padding: 5px;
   align-items: center;
   display: inline-block;
+
   font-weight: bold;
   align-items: center;
 }
@@ -119,7 +121,7 @@ a {
   font-weight: bold;
   border-bottom: 1px solid rgb(206, 206, 206);
   padding-bottom: 10px;
-  display: block;
+  display: flex;
   padding-left: 33%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -137,10 +139,25 @@ a {
 
 /*--------------------------------------*/
 
+.headermain {
+  display: flex;
+}
+
+header nav section a {
+  display: flex;
+  align-items: center;
+}
+
+header nav section a img {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 nav section {
